@@ -1,0 +1,62 @@
+{
+  "name": "10x-admin",
+  "version": "0.0.1",
+  "description": "Interface administrativa do 10x",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.2.0",
+    "react": "^0.11.1",
+    "react-bootstrap": "^0.11.1",
+    "react-router": "^0.5.2"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^5.10.1",
+    "connect": "^2.16.2",
+    "connect-livereload": "^0.4.0",
+    "cookie-cutter": "^0.1.1",
+    "envify": "^3.0.0",
+    "gulp": "^3.8.7",
+    "gulp-autoprefixer": "0.0.8",
+    "gulp-cache": "^0.2.1",
+    "gulp-changed": "^1.0.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-csso": "^0.2.9",
+    "gulp-filter": "^1.0.0",
+    "gulp-flatten": "0.0.2",
+    "gulp-gh-pages": "^0.3.3",
+    "gulp-gzip": "0.0.8",
+    "gulp-imagemin": "^1.0.0",
+    "gulp-jshint": "^1.6.1",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^2.1.1",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-ng-annotate": "^0.3.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-s3": "^0.3.0",
+    "gulp-size": "^1.0.0",
+    "gulp-uglify": "^0.3.1",
+    "gulp-uncss": "^0.4.5",
+    "gulp-useref": "^0.6.0",
+    "gulp-util": "^3.0.0",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.19.0",
+    "opn": "^1.0.0",
+    "reactify": "^0.14.0",
+    "rimraf": "^2.2.8",
+    "should": "^4.0.4",
+    "vinyl-source-stream": "^0.1.1",
+    "watchify": "^1.0.2",
+    "yargs": "^1.2.2"
+  }
+}

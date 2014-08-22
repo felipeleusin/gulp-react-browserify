@@ -1,7 +1,7 @@
-10x Listas de Convidados
+Gulp React Browserify Template
 ==============
 
-Página para promoters gerenciarem listas de convidados.
+Template de aplicativo para utilizar react + browserify usando gulp.
 
 ## Requisitos
 
